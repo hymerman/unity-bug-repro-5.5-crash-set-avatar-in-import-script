@@ -1,0 +1,710 @@
+
+LICENSE SYSTEM [20161214 11:11:16] Next license update check is after 2016-12-14T11:32:13
+
+
+LICENSE SYSTEM [20161214 11:11:16] 00331-60010-48426-AA738 != 00331-60000-00000-AA379
+
+Built from '5.5/patch-release' branch; Version is '5.5.0p1 (f43eade5c7c4) revision 16006829'; Using compiler version '160040219'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16347 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity5.5.0p1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity5.5.0p1/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityScript'
+Mono config path = 'C:/Program Files/Unity5.5.0p1/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56140
+IsTimeToCheckForNewEditor: Update time 1481713960 current 1481713878
+C:/PersonalProjects/unity-bug-repro-5.5-crash-set-avatar-in-import-script
+Loading GUID <-> Path mappings...0.000122 seconds
+Loading Asset Database...0.009692 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.019384 seconds
+Initialize engine version: 5.5.0p1 (f43eade5c7c4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     4061 MB
+    Driver:   21.21.13.7595
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v5.5.0 for Unity v5.5.0p1
+Setting StandaloneLinux v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
+Setting StandaloneOSXIntel v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport
+Setting WSAPlayer v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport
+Setting StandaloneWindows v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport
+Setting Advertisements v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements
+  UnityEngine.Advertisements.dll (Extension) GUID: 739bbd9f364b4268874f9fd86ab3beef
+  Editor/UnityEditor.Advertisements.dll (Extension) GUID: 97decbdab0634cdd991f8d23ddf0dead
+Setting EditorTestsRunner v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner
+  Editor/nunit.framework.dll (Extension) GUID: 7cbab2be89b54486bbd23a6fe637d30e
+  Editor/UnityEditor.EditorTestsRunner.dll (Extension) GUID: 3c0ad459c1534645b5d603b7cc258f97
+Setting GUISystem v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem
+  UnityEngine.UI.dll (Extension) GUID: f5f67c52d1564df4a8936ccd202a3bd8
+  Standalone/UnityEngine.UI.dll (Extension) GUID: f70555f144d8491a825f0804e09c671c
+  Editor/UnityEditor.UI.dll (Extension) GUID: 80a3616ca19596e4da0f10f14d241e9f
+Setting UNetHLAPI v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking
+  UnityEngine.Networking.dll (Extension) GUID: 870353891bb340e2b2a9c8707e7419ba
+  Standalone/UnityEngine.Networking.dll (Extension) GUID: dc443db3e92b4983b9738c1131f555cb
+  Editor/UnityEditor.Networking.dll (Extension) GUID: 5f32cd94baa94578a686d4b9d6b660f7
+Setting PlaymodeTestsRunner v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner
+  Editor/UnityEditor.PlaymodeTestsRunner.dll (Extension) GUID: 4113173d5e95493ab8765d7b08371de4
+  UnityEngine.PlaymodeTestsRunner.dll (Extension) GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+Setting TreeEditor v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor
+  Editor/UnityEditor.TreeEditor.dll (Extension) GUID: adebbd281f1a4ef3a30be7f21937e02f
+Setting UnityAnalytics v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics
+  UnityEngine.Analytics.dll (Extension) GUID: 852E56802EB941638ACBB491814497B0
+  Editor/UnityEditor.Analytics.dll (Extension) GUID: 86f4de9468454445ac2f39e207fafa3a
+Setting UnityHoloLens v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens
+  Editor/UnityEditor.HoloLens.dll (Extension) GUID: 12fd8a0055b84bb59e84c9835a37e333
+  Runtime/UnityEngine.HoloLens.dll (Extension) GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+  RuntimeEditor/UnityEngine.HoloLens.dll (Extension) GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+Setting UnityPurchasing v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityPurchasing
+  UnityEngine.Purchasing.dll (Extension) GUID: 8E0CD8ED44D4412CBE0642067ABC9E44
+Setting UnityVR v5.5.0 for Unity v5.5.0p1 to C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR
+  Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+  Runtime/UnityEngine.VR.dll (Extension) GUID: 6cdf1e5c78d14720aaadccd4C792df96
+  RuntimeEditor/UnityEngine.VR.dll (Extension) GUID: 307433eba81a469ab1e2084d52d1a5a2
+Registering custom dll's ...
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.017968 seconds.
+Non platform assembly: C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\Editor\UnityEditor.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\Editor\UnityEditor.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\nunit.core.interfaces.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.89 ms.
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\nunit.core.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.Mono.Cecil.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.465 seconds
+Registering platform support modules:
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Downloading http://update.unity3d.com/5.5/ivy.xml to C:\Users\Ben\AppData\Local\Temp\unity\44c491ef-69c5-45ad-ac81-e622343934db\ivy.xml
+Registered platform support modules in: 0.0709076s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for Metro target not found
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Shutting down Remote Indexer
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Registered in 0.034035 seconds.
+Non platform assembly: C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\Editor\UnityEditor.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\Editor\UnityEditor.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\nunit.core.interfaces.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\nunit.core.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.Mono.Cecil.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.312 seconds
+Initializing Unity.PackageManager (PackageManager) v5.5.0 for Unity v5.5.0p1
+Registering platform support modules:
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Registered platform support modules in: 0.0383469s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for Metro target not found
+Validating Project structure ... 0.000064 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.001 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 1 asset(s).
+
+Refresh: elapses 0.024176 seconds
+Updating Assets/ImportAnimation.cs - GUID: ebc4f3bad65d9254da57fb1ec3dbe2ce...
+ done. [Time: 72.065231 ms] 
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 5
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+
+----- Total AssetImport time: 0.146933s, AssetImport time: 0.122192s, Asset hashing: 0.000595s [1.1 KB, 1.884821 mb/s]
+
+A default asset was created for 'Assets/Run_script_on_this.fbx' because the asset importer crashed on it last time.
+You can select the asset and use the 'Assets -> Reimport' menu command to try importing it again, or you can replace the asset and it will auto import again.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/CrashedAssetImportsDatabase.cpp Line: 45)
+
+Warming cache for 57 main assets: 0.000137 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll'  GUID: 86f4de9468454445ac2f39e207fafa3a
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll'  GUID: 3c0ad459c1534645b5d603b7cc258f97
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'  GUID: 97decbdab0634cdd991f8d23ddf0dead
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'  GUID: 307433eba81a469ab1e2084d52d1a5a2
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll'  GUID: 6cdf1e5c78d14720aaadccd4c792df96
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'  GUID: 8e0cd8ed44d4412cbe0642067abc9e44
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll'  GUID: 7cbab2be89b54486bbd23a6fe637d30e
+ 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'  GUID: 739bbd9f364b4268874f9fd86ab3beef
+Unloading 78 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 27.3 MB.
+System memory in use after: 27.2 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 0.951695 ms (FindLiveObjects: 0.067704 ms CreateObjectMapping: 0.011752 ms MarkObjects: 0.857676 ms  DeleteObjects: 0.013285 ms)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+WeaveUnetFromEditor Temp/Assembly-CSharp.dll
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.UNetWeaver.dll (this message is harmless)
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor
+WeaveAssemblies unityPath= C:/Program Files/Unity5.5.0p1/Editor/Data/Managed/UnityEngine.dll
+WeaveAssemblies unetPath= C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.Pdb.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.Mdb.dll (this message is harmless)
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 15 milliseconds
+Pass: 1 took 0 milliseconds
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 5
+Issue TrimJob to reduce GI Cache size to maximum 10GB at: 'C:/Users/Ben/AppData/LocalLow/Unity/Caches/GiCache'
+[00:00:00] Enlighten: Precompute started.
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+TrimDiskCacheJob: Current cache size 1864mb
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+[00:00:00] Enlighten: Precompute took 0.104396 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4f9c -> priority: 1 
+  Thread -> id: 5618 -> priority: 1 
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+WeaveUnetFromEditor Temp/Assembly-CSharp.dll
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor
+WeaveAssemblies unityPath= C:/Program Files/Unity5.5.0p1/Editor/Data/Managed/UnityEngine.dll
+WeaveAssemblies unetPath= C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 7 milliseconds
+Pass: 1 took 0 milliseconds
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor
+Reloading assemblies after finishing script compilation.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Registered in 0.034010 seconds.
+Non platform assembly: C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PackageManager\Unity\PackageManager\5.5.0\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\nunit.framework.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor\UnityEditor.EditorTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\Editor\UnityEditor.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\Editor\UnityEditor.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\PlaymodeTestsRunner\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Loading C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Mono.Cecil.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\nunit.core.interfaces.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Managed\nunit.core.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.Mono.Cecil.dll (this message is harmless)
+Mono: successfully reloaded assembly
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+
+----- Total AssetImport time: 0.033367s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+- Completed reload, in  0.550 seconds
+Initializing Unity.PackageManager (PackageManager) v5.5.0 for Unity v5.5.0p1
+Registering platform support modules:
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Registered platform support modules in: 0.0300679s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for Metro target not found
+[00:00:02] Enlighten: Bake started.
+[00:00:02] Enlighten: Finished 1 Bake Runtime job (0.02s execute, 0.00s integrate, 0.06s wallclock)
+[00:00:02] Enlighten: Bake took 0.055583 seconds.
+[00:00:02] Enlighten: Reflection Probes started.
+[00:00:02] Enlighten: Finished 1 Ambient Probes job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+[00:00:02] Enlighten: Finished 1 Reflection Probes job (0.00s execute, 0.00s integrate, 0.05s wallclock)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+
+----- Total AssetImport time: 0.080663s, AssetImport time: 0.026534s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.001186 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.001 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 1 asset(s).
+
+Refresh: elapses 0.022862 seconds
+Updating Assets/ImportAnimation.cs - GUID: ebc4f3bad65d9254da57fb1ec3dbe2ce...
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor
+ done. [Time: 53.624302 ms] 
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity5.5.0p1/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 5
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+
+----- Total AssetImport time: 0.129704s, AssetImport time: 0.105548s, Asset hashing: 0.000918s [1.1 KB, 1.222438 mb/s]
+
+Setting up animation Run_script_on_this (UnityEngine.GameObject)...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+SetupAnimationProcessor:SetupAnimation() (at Assets\ImportAnimation.cs:11)
+ 
+(Filename: Assets/ImportAnimation.cs Line: 11)
+
+
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.144 MB)
+  hash: 0.000 seconds
+Updating Assets/Run_script_on_this.fbx - GUID: 29dd0c1c0413def4aa2d9702ee46bfc5...
+Setup Assets/Run_script_on_this.fbx successfully
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+SetupAnimationProcessor:OnPreprocessAnimation() (at Assets\ImportAnimation.cs:34)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.AttributeHelper:InvokeMemberIfAvailable(Object, String, Object[]) (at C:\buildslave\unity\build\Editor\Mono\AttributeHelper.cs:340)
+UnityEditor.AssetPostprocessingInternal:PreprocessAnimation(String) (at C:\buildslave\unity\build\Editor\Mono\AssetPostprocessor.cs:203)
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.AssetDatabase:ImportAsset(String) (at C:\buildslave\unity\build\artifacts\generated\common\editor\AssetDatabaseBindings.gen.cs:113)
+SetupAnimationProcessor:SetupAnimation() (at Assets\ImportAnimation.cs:14)
+ 
+(Filename: Assets/ImportAnimation.cs Line: 34)
+
+Invalid OffsetPtr access! Pointer is NULL
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.AssetDatabase:ImportAsset(String) (at C:\buildslave\unity\build\artifacts\generated\common\editor\AssetDatabaseBindings.gen.cs:113)
+SetupAnimationProcessor:SetupAnimation() (at Assets\ImportAnimation.cs:14)
+
+[C:\buildslave\unity\build\Runtime/Serialize/Blobification/offsetptr.h line 51] 
+(Filename: Assets/ImportAnimation.cs Line: 14)
+
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity5.5.0p1/Editor/Data/MonoEmbedRuntime;.;C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script;C:\Program Files\Unity5.5.0p1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Ben'
+OS-Version: 10.0.14393 () 0x100-0x1
+C:\Program Files\Unity5.5.0p1\Editor\Unity.exe:Unity.exe (0000000140000000), size: 63897600 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\Unity_x64.pdb', fileVersion: 5.5.0.16045
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFF9C3F0000), size: 1904640 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFF9B910000), size: 700416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFF98AE0000), size: 2215936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.14393.321
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFF9B9C0000), size: 1273856 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFF9B5D0000), size: 2912256 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.14393.351
+C:\Program Files\Unity5.5.0p1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 2822144 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\FreeImage.dll', fileVersion: 3.11.0.0
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFF99880000), size: 1003520 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFF9BF60000), size: 1183744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.14393.82
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFF98A70000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFF99A80000), size: 364544 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFF9C290000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.14393.206
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFF988E0000), size: 1581056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFF9B2F0000), size: 1462272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFF99580000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.14393.51
+C:\WINDOWS\System32\COMDLG32.dll:COMDLG32.dll (00007FFF99980000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\COMDLG32.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFF99BB0000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.14393.0
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFF97740000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.14393.0
+C:\Program Files\Unity5.5.0p1\Editor\TextureConverter.dll:TextureConverter.dll (00007FFF6F900000), size: 6627328 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\TextureConverter.dll'
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFF993E0000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.14393.0
+C:\Program Files\Unity5.5.0p1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFF76ED0000), size: 1515520 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\umbraoptimizer64.dll'
+C:\Program Files\Unity5.5.0p1\Editor\libcef.dll:libcef.dll (00007FFF60FB0000), size: 52191232 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\libcef.dll', fileVersion: 3.2062.1930.0
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFF9C090000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFF99C60000), size: 663552 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFF99D10000), size: 22056960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFF9B8A0000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.14393.206
+C:\Program Files\Unity5.5.0p1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFF76D70000), size: 1433600 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\ispc_texcomp.dll'
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFF99530000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\cfgmgr32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FFF9B290000), size: 376832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WLDAP32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\windows.storage.dll:windows.storage.dll (00007FFF98D00000), size: 7184384 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\windows.storage.dll', fileVersion: 10.0.14393.206
+C:\WINDOWS\System32\powrprof.dll:powrprof.dll (00007FFF98850000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\powrprof.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFF9B5C0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PSAPI.DLL', fileVersion: 10.0.14393.0
+C:\Program Files\Unity5.5.0p1\Editor\slapi.dll:slapi.dll (00007FFF6F290000), size: 6692864 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\slapi.dll', fileVersion: 15.0.9350.0
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFF99AE0000), size: 782336 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFF988D0000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\kernel.appcore.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFF99490000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\profapi.dll:profapi.dll (00007FFF988B0000), size: 81920 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\profapi.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFF996B0000), size: 1871872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.447_none_42191651c6827bb3\COMCTL32.dll:COMCTL32.dll (00007FFF8E430000), size: 2592768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.447_none_42191651c6827bb3\COMCTL32.dll', fileVersion: 6.10.14393.447
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFF9BB00000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFF9BB30000), size: 4362240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\MSASN1.dll:MSASN1.dll (00007FFF988A0000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSASN1.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\WINSPOOL.DRV:WINSPOOL.DRV (00007FFF952F0000), size: 544768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINSPOOL.DRV', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005AB10000), size: 622592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP100.dll', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005AA30000), size: 860160 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCR100.dll', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFF821D0000), size: 1191936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFF95980000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Secur32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFF95A90000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFF97EE0000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USERENV.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\urlmon.dll:urlmon.dll (00007FFF91710000), size: 1843200 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\urlmon.dll', fileVersion: 11.0.14393.447
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFF94700000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\WTSAPI32.dll:WTSAPI32.dll (00007FFF95620000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WTSAPI32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFF99BA0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\NSI.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFF97DE0000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\OLEACC.dll:OLEACC.dll (00007FFF8C350000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OLEACC.dll', fileVersion: 7.2.14393.0
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFF96A30000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFF8E730000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\USP10.dll:USP10.dll (00007FFF797A0000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USP10.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFF93750000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.14393.0
+C:\Program Files\Unity5.5.0p1\Editor\LIBPQ.dll:LIBPQ.dll (00007FFF76B90000), size: 1957888 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\LIBPQ.dll', fileVersion: 9.3.2.14296
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFF97E20000), size: 655360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.14393.206
+C:\WINDOWS\SYSTEM32\WININET.dll:WININET.dll (00007FFF88B10000), size: 2699264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WININET.dll', fileVersion: 11.0.14393.447
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFF986F0000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\DDRAW.dll:DDRAW.dll (00007FFF84A60000), size: 1011712 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DDRAW.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\iertutil.dll:iertutil.dll (00007FFF913F0000), size: 2764800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\iertutil.dll', fileVersion: 11.0.14393.447
+C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (0000000000600000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMMBASE.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFF98520000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SSPICLI.DLL', fileVersion: 10.0.14393.187
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFF7EC60000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WSOCK32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (00007FFF96CA0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DCIMAN32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFF982E0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFF96FE0000), size: 610304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFF9B460000), size: 1421312 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSCTF.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFF943E0000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFF9C2D0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFF93000000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemprox.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFF92EC0000), size: 520192 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wbemcomn.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFF92870000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemsvc.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFF92890000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\fastprox.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFF982C0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFF981D0000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\rsaenh.dll', fileVersion: 10.0.14393.0
+C:\Program Files\Unity5.5.0p1\Editor\Data\Mono\EmbedRuntime\mono.dll:mono.dll (00007FFF76210000), size: 2998272 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\mono.pdb', fileVersion: 1.0.0.1
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FFF98050000), size: 376832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFF97C00000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntmarta.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\ondemandconnroutehelper.dll:ondemandconnroutehelper.dll (00007FFF91F60000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ondemandconnroutehelper.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFF952E0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINNSI.DLL', fileVersion: 10.0.14393.0
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFF91D60000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (00007FFF961D0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dwmapi.dll', fileVersion: 10.0.14393.206
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFF969B0000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\NLAapi.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\audioses.dll:audioses.dll (00007FFF7D0F0000), size: 606208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\audioses.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\system32\MMDevAPI.DLL:MMDevAPI.DLL (00007FFF94850000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\MMDevAPI.DLL', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFF94450000), size: 1269760 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wintypes.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\system32\DEVOBJ.dll:DEVOBJ.dll (00007FFF97430000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\DEVOBJ.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\PROPSYS.dll:PROPSYS.dll (00007FFF95BC0000), size: 1593344 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\PROPSYS.dll', fileVersion: 7.0.14393.0
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFF99650000), size: 348160 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WINTRUST.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFF92440000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\fwpuclnt.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFF98360000), size: 352256 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINSTA.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\dataexchange.dll:dataexchange.dll (00007FFF81FB0000), size: 299008 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dataexchange.dll', fileVersion: 10.0.14393.206
+C:\WINDOWS\system32\d3d11.dll:d3d11.dll (00007FFF905E0000), size: 2842624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\d3d11.dll', fileVersion: 10.0.14393.351
+C:\WINDOWS\system32\dcomp.dll:dcomp.dll (00007FFF964D0000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dcomp.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\dxgi.dll:dxgi.dll (00007FFF977E0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dxgi.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFF972B0000), size: 1163264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\twinapi.appcore.dll', fileVersion: 10.0.14393.206
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FFF97750000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\gpapi.dll', fileVersion: 10.0.14393.0
+C:\Windows\System32\cryptnet.dll:cryptnet.dll (00007FFF865B0000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cryptnet.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\wdmaud.drv:wdmaud.drv (00007FFF79A60000), size: 258048 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wdmaud.drv', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (00007FFF84BC0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ksuser.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (00007FFF8EDB0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AVRT.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\msacm32.drv:msacm32.drv (00007FFF7A230000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msacm32.drv', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFF79A40000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSACM32.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\midimap.dll:midimap.dll (00007FFF78450000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\midimap.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_410e5247be0e5f00\nvwgf2umx.dll:nvwgf2umx.dll (00007FFF89900000), size: 24301568 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_410e5247be0e5f00\nvwgf2umx.dll', fileVersion: 21.21.13.7595
+C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\VR\Win64\AudioPluginMsHRTF.dll:AudioPluginMsHRTF.dll (00007FFF6CA10000), size: 3072000 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\VR\Win64\AudioPluginMsHRTF.dll'
+C:\WINDOWS\SYSTEM32\HrtfApo.dll:HrtfApo.dll (00007FFF891C0000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HrtfApo.dll'
+C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\VR\Win64\AudioPluginOculusSpatializer.dll:AudioPluginOculusSpatializer.dll (00007FFF6E1B0000), size: 2371584 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\Data\UnityExtensions\Unity\VR\Win64\AudioPluginOculusSpatializer.dll'
+C:\WINDOWS\system32\explorerframe.dll:explorerframe.dll (00007FFF81B20000), size: 4734976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\explorerframe.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00000000223E0000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\Windows\System32\ActXPrxy.dll:ActXPrxy.dll (00007FFF90E30000), size: 3559424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ActXPrxy.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\coml2.dll:coml2.dll (00007FFF9B220000), size: 450560 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\coml2.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\mssprxy.dll:mssprxy.dll (00007FFF7E320000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\mssprxy.dll', fileVersion: 7.0.14393.206
+C:\WINDOWS\SYSTEM32\LINKINFO.dll:LINKINFO.dll (00007FFF809F0000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\LINKINFO.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\ntshrui.dll:ntshrui.dll (00007FFF80B20000), size: 860160 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntshrui.dll', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\srvcli.dll:srvcli.dll (00007FFF862A0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\srvcli.dll', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\cscapi.dll:cscapi.dll (00007FFF8CD00000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cscapi.dll', fileVersion: 10.0.14393.0
+C:\Program Files\Unity5.5.0p1\Editor\Data\Tools\ImportFBX.dll:ImportFBX.dll (0000000028FB0000), size: 12783616 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity5.5.0p1\Editor\Data\Tools\ImportFBX.dll'
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFF8F660000), size: 1646592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.14321.1024
+
+========== OUTPUTING STACK TRACE ==================
+
+0x00000001416323F4 (Unity) mecanim::skeleton::CreateSkeletonPose<math::trsX>
+0x000000014018592F (Unity) GenerateMecanimClipsCurves
+0x000000014130CA40 (Unity) ModelImporter::ImportMuscleClip
+0x00000001413239E7 (Unity) ModelImporter::GenerateAnimationClips
+0x000000014133C620 (Unity) ModelImporter::GenerateAll
+0x000000014133D410 (Unity) ModelImporter::GenerateAssetData
+0x000000014013E6F1 (Unity) AssetDatabase::ImportAsset
+0x000000014014A09B (Unity) AssetDatabase::UpdateAsset
+0x000000014014CA54 (Unity) AssetInterface::ProcessAssetsImplementation
+0x0000000140151292 (Unity) AssetInterface::StopAssetEditing
+0x0000000140151D53 (Unity) AssetInterface::ImportAtPath
+0x0000000141055A57 (Unity) AssetDatabase_CUSTOM_ImportAsset
+0x0000000011F88AAD (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+0x0000000011F889AE (Mono JIT Code) [C:\buildslave\unity\build\artifacts\generated\common\editor\AssetDatabaseBindings.gen.cs:113] UnityEditor.AssetDatabase:ImportAsset (string) 
+0x0000000011F821D5 (Mono JIT Code) [C:\PersonalProjects\unity-bug-repro-5.5-crash-set-avatar-in-import-script\Assets\ImportAnimation.cs:14] SetupAnimationProcessor:SetupAnimation () 
+0x000000001F260A8E (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007FFF763354A3 (mono) [c:\buildslave\mono\build\mono\mini\mini.c:4937] mono_jit_runtime_invoke 
+0x00007FFF762883F1 (mono) [c:\buildslave\mono\build\mono\metadata\object.c:2623] mono_runtime_invoke 
+0x00000001411FEB8F (Unity) scripting_method_invoke
+0x0000000140E325F5 (Unity) ScriptingInvocation::Invoke
+0x0000000140E32BAD (Unity) ScriptingInvocation::InvokeChecked
+0x00000001412567FA (Unity) ScriptCommands::InvokeMenuItemWithContext
+0x0000000141256A4F (Unity) ScriptCommands::Execute
+0x00000001414BB7C2 (Unity) MenuController::ExecuteMenuItem
+0x000000014154302F (Unity) ShowDelayedContextMenu
+0x000000014153388D (Unity) GUIView::OnInputEvent
+0x0000000140079C13 (Unity) GUIView::ProcessInputEvent
+0x000000014152EDE2 (Unity) GUIView::ProcessEventMessages
+0x0000000141534D3A (Unity) GUIView::GUIViewWndProc
+0x00007FFF9B301C24 (USER32) CallWindowProcW
+0x00007FFF9B30156C (USER32) DispatchMessageW
+0x000000014154DE59 (Unity) FindMonoBinaryToUse
+0x000000014154F4E1 (Unity) WinMain
+0x000000014186A914 (Unity) strnlen
+0x00007FFF9B918364 (KERNEL32) BaseThreadInitThunk
+0x00007FFF9C455E91 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
