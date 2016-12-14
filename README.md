@@ -5,9 +5,9 @@ This project contains a single FBX file with a mesh, rig and animation, and an A
 
 The script is set up to run on demand only, by right clicking the asset and choosing 'Setup Animation'.
 
-Note that it happens whatever the model's current avatar type is, and whatever the type it's being changed to.
+Note that it seems to happen only when changing to the Human rig type.
 
-It doesn't crash if the change is done at another stage of the asset import, but then there are other problems - our full script also sets the reference avatar, and the asset being set up doesn't copy the avatar definition fully unless run in the OnPreprocessAnimation stage, so this isn't a workaround.
+It doesn't crash if the change is done at another stage of the asset import, but then there are other problems - our full script also sets an avatar definition to copy from, and the asset being set up doesn't copy the avatar definition fully unless run in the OnPreprocessAnimation stage, so this isn't a workaround.
 
 It seems to be a regression from Unity 5.4 as it started happening after upgrading to 5.5.0p1 from 5.4.0f3.
 
@@ -28,10 +28,10 @@ Relevant log lines:
     Invalid OffsetPtr access! Pointer is NULL
     UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
     UnityEditor.AssetDatabase:ImportAsset(String) (at C:\buildslave\unity\build\artifacts\generated\common\editor\AssetDatabaseBindings.gen.cs:113)
-    ImportAnimation:SetupAnimation() (at Assets\ImportAnimation.cs:18)
+    SetupAnimationProcessor:SetupAnimation() (at Assets\ImportAnimation.cs:14)
     
     [C:\buildslave\unity\build\Runtime/Serialize/Blobification/offsetptr.h line 51] 
-    (Filename: Assets/ImportAnimation.cs Line: 18)
+    (Filename: Assets/ImportAnimation.cs Line: 14)
     
     Crash!!!
 

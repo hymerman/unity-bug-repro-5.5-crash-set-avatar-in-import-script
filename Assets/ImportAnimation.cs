@@ -29,7 +29,7 @@ public class SetupAnimationProcessor : AssetPostprocessor
 
 			if ( importer != null )
 			{
-				importer.animationType = ModelImporterAnimationType.Generic;
+				importer.animationType = ModelImporterAnimationType.Human;
 
 				Debug.LogFormat( "Setup {0} successfully", importer.assetPath );
 			}
